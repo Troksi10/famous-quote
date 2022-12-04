@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote {
+  background: url(./assets/alberteinstein-cke.webp);
+  background-size:auto;
+  width: 600px;
+  height: 420px;
+}
+
+.quote h2 {
+  color: rgb(221, 48, 48);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+}
+
+.quote h3 {
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    
+}
+
+.btn {
+  margin-bottom: 15px;
+}
